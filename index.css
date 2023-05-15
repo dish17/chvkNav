@@ -3,12 +3,13 @@
     width: 320px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.692);
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 400px) {
     .refList {
         width: 180px;
+        margin-top: 10px;
     }
 }
 
