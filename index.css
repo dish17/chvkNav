@@ -26,26 +26,26 @@
 
 
 .refList>li>div>img {
-    height: 80px;
+    height: 50px;
 
 }
 
 .TelegramCont>img,
 .TelegramChatCont>img {
-    margin-left: -17px;
+    margin-left: -10px;
 }
 
 .refList>li>.TikTokCont>p,
 .refList>li>.DiscordCont>p {
     font-size: large;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 5px;
 }
 
 .TelegramCont>p,
 .TelegramChatCont>p {
     font-size: large;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: -10px;
 }
 
