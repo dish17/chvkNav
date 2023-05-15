@@ -1,6 +1,6 @@
 .refList {
     list-style: none;
-    width: 240px;
+    width: 520px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.692);
     margin-top: 50px;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 400px) {
     .refList {
-        width: 130px;
+        width: 260px;
     }
 }
 
@@ -26,26 +26,26 @@
 
 
 .refList>li>div>img {
-    height: 50px;
+    height: 80px;
 
 }
 
 .TelegramCont>img,
 .TelegramChatCont>img {
-    margin-left: -10px;
+    margin-left: -17px;
 }
 
 .refList>li>.TikTokCont>p,
 .refList>li>.DiscordCont>p {
     font-size: large;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 5px;
 }
 
 .TelegramCont>p,
 .TelegramChatCont>p {
     font-size: large;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: -10px;
 }
 
