@@ -1,0 +1,76 @@
+.refList {
+    list-style: none;
+    width: 520px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.692);
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .refList {
+        width: 260px;
+    }
+}
+
+
+.refList>li>div {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid black;
+    background-color: transparent;
+}
+
+.refList>li>div:hover {
+    transform: scale(101%);
+}
+
+
+.refList>li>div>img {
+    height: 80px;
+
+}
+
+.TelegramCont>img,
+.TelegramChatCont>img {
+    margin-left: -17px;
+}
+
+.refList>li>.TikTokCont>p,
+.refList>li>.DiscordCont>p {
+    font-size: large;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.TelegramCont>p,
+.TelegramChatCont>p {
+    font-size: large;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+/* .refList>li {
+    position: relative;
+}
+
+.refList>li>.back {
+
+    background-color: white;
+    height: 100%;
+    width: 100%;
+
+} */
+
+.refList>li>div {
+    margin-left: -40px;
+}
+
+body {
+    background-color: transparent;
+}
+
+html {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
